@@ -1,0 +1,66 @@
+1. reverse_list
+
+Input: [1, 2, 3, 4, 5]
+Output: [5, 4, 3, 2, 1]
+answer:-
+lst = [1,2,3,4,5]
+lst.reverse()
+print(lst)
+
+2nd answer for 1 question
+lst = [1,2,3,4,5]
+new_lst = lst[::-1]
+print(new_lst)
+print(lst)
+
+2. count_vowels
+
+Input: 'programming is fun'
+Output: 5 (count of vowels)
+
+answer:-
+string = "programming is fun"
+vowels = "aeiouAEIOU"
+ 
+count = sum(string.count(vowel) for vowel in vowels)
+print(count)
+
+3. dict_filter
+
+Input:
+{'Alice': 25, 'Bob': 30, 'Charlie': 22, 'David': 35}
+Output:
+{'Alice': 25, 'Charlie': 22}
+
+answer:- 
+
+
+
+4. sum_multiples_of_three
+
+Input: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Output: 18 (sum of multiples of 3)
+
+answer:-
+
+lst1= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+sum=0
+print(type(lst1)) 
+for i in range(len(lst1)):
+    if i%3==0:
+        sum=sum+i
+        print(i)
+print(sum)
+
+5. common_letters
+
+Input:
+{'apple', 'orange', 'banana'}
+Output:
+{'a', 'e'}
+
+answer:-
+
+common_char={'apple', 'orange', 'banana'}
+common = set.intersection(set,common_char)
+print(common) 
